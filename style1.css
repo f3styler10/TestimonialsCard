@@ -1,0 +1,234 @@
+html{
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed';
+    
+    background-color: #ecf2f8;
+}
+ 
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+#card{
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: auto;
+    
+
+}
+
+.box{
+    
+    margin: 35px;
+    border-radius: 10px;
+    padding: 32px 32px 32px 32px;
+    box-shadow: 0px 0px 28px -4px rgba(0,0,0,1);
+    
+    }
+
+
+
+#item1{
+
+    margin-top: 80px;
+    background-color: #7541c8;
+  
+}
+
+#item2{
+   background-color: #48556a;
+   
+}
+
+
+#item3{
+    background-color: #ffffff;
+    
+}
+
+#card3{
+    margin-bottom: 80px;
+    margin-top:0px;
+    background-color: #ffffff;
+    
+} 
+
+#item4{
+        background-color: #19212e;    
+      }
+
+
+
+h2  {
+    color:#ecf2f8;
+    font-weight: 700;
+    }
+
+#h3,#h5{
+    color: #48556a;
+    font-weight: 700;   
+    }
+
+
+p{
+    color: #ecf2f8;
+    opacity: 70%;
+  
+ 
+    
+
+}
+
+#name{
+    color: #ecf2f8;
+ 
+}
+
+ #profession{
+    color: #ecf2f8;
+    opacity: 50%;
+}
+
+
+#name3{
+  color: #48556a;
+}
+
+#profession3{
+    color: #48556a;
+    opacity: 50%;
+}
+
+#para3,#para5{
+    
+    color: #48556a;
+    opacity: 50%;
+ 
+   
+}
+
+p ,h2{
+    line-height: 22px;
+}
+
+
+#img-name{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+#name-prof{
+    align-self:center;
+    margin-left: 10px;
+}  
+
+img{
+    border-radius: 360px;
+    max-width: 30px;
+}
+
+
+
+
+
+@media(min-width:376px)
+{
+
+
+    html{
+        font-size:13px;
+        box-sizing: border-box;
+        
+    }
+
+    *,*:before,*:after{
+        box-sizing: inherit;
+    }
+
+    .box{
+
+        margin: 20px;
+       
+    }
+
+
+    #card{
+        flex-direction: row;
+        height: 720px;
+        width:1152px;
+        margin-left:10%;
+        margin-top:6%;
+        background-color: #ecf2f8;
+        }
+
+
+
+    #sub-card{
+              width: 79%;
+             }   
+
+
+
+    #item1{
+    margin-top: 20px;
+    flex-basis: 70%;
+    }
+
+
+
+    #item2{
+    flex-basis: 30%;
+    }
+
+
+
+    #item3{
+    flex-basis: 30%;
+    }
+
+
+    
+    #item4{
+    flex-basis: 70%;
+    }
+
+
+
+    #card1{
+    
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:50%;
+        }
+
+
+    #card2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50%;     
+        }
+
+
+    #card3{
+       width: 21%;
+       margin-top:20px; 
+       margin-bottom: 20px;   
+         }
+
+
+
+    p ,h2{
+            line-height: 21px;
+        }
+        
+
+   
+
+}  
